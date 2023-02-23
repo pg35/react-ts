@@ -1,8 +1,9 @@
 import { StrictMode } from "react";
 import * as ReactDOMClient from "react-dom/client";
 
-import App2 from "./App";
-import App from "./emlchk/App";
+//import App from "./App";
+//import App from "./emlchk/App";
+import App from "./mwsp/App";
 
 const rootElement = document.getElementById("root");
 if (null !== rootElement) {
@@ -10,10 +11,7 @@ if (null !== rootElement) {
 
   root.render(
     <StrictMode>
-      <div>
-        <App2 />
-        <App />
-      </div>
+      <App />
     </StrictMode>
   );
 }
